@@ -1,0 +1,120 @@
+.animate-switch-container
+{
+	position:relative;
+}
+.ng-cloak
+{
+	display:none;
+}
+.animateng
+{
+	@include animated(0.5s);
+	opacity:1;
+	&.slide {
+	
+	}
+	&.slide.ng-enter {
+		opacity:0;
+	}
+	&.slide.ng-enter-active {
+		@extend .fadeInRight;
+	}
+	&.slide.ng-leave {
+		display:none;
+	}
+	&.slide.ng-leave-active {
+		display:none;
+	}
+	&.ng-leave.ng-leave-active,
+	&.ng-enter {
+			
+	}
+	&.ng-leave,
+	&.ng-enter.ng-enter-active {
+	  	
+	}
+}
+
+.msj-animated
+{
+	@include animated(0.5s);
+	opacity:1;
+	overflow:visible;
+	&.ng-enter
+	{
+
+	}
+	&.ng-enter-active
+	{
+		@extend .fadeInRight;
+	}
+	&.ng-leave
+	{
+		@extend .fadeOutLeft;
+	}
+	&.ng-leave-active
+	{
+	
+	}
+	&.ng-move
+	{
+		@extend .fadeIn; 
+	}
+}
+
+.ng-animated
+{
+	@include animated(0.7s);
+
+	&.ng-enter
+	{
+
+	}
+	&.ng-enter-active
+	{
+		//@extend .bounceInDown;
+	}
+	&.ng-leave
+	{
+		display:none;
+	}
+	&.ng-leave-active
+	{
+	
+	}
+	&.ng-move
+	{
+		@extend .fadeIn; 
+	}
+}
+
+.ng-reveal 
+{ 
+	@include animated(0.6s); 
+
+	&.ng-enter
+	{
+		
+	}
+	&.ng-enter-active
+	{
+		@extend .fadeIn;
+	}
+	&.ng-leave
+	{
+		display:none;
+	}
+	&.ng-leave-active
+	{
+	}
+	&.ng-move
+	{
+	
+	}
+}
+
+
+
+
+
+

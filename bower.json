@@ -1,0 +1,17 @@
+{
+  "name": "CaimanidorCss",
+  "version": "0.0.0",
+  "authors": [
+    "pablocrs <pablo.crs@gmail.com>"
+  ],
+  "description": "Mix of various css frameworks (Foundation, InuitCss, Bootstrap, 320andUp, WakkosCss)",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
