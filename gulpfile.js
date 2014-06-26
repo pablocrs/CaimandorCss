@@ -54,6 +54,7 @@ gulp.task('styles:css', function () {
 	return gulp.src('app/assets/styles/**/*.css')
 		.pipe($.autoprefixer('last 1 version'))
 		.pipe(gulp.dest('.tmp/assets/styles'))
+		.pipe(gulp.dest('dist/assets/styles'))
 		.pipe(reload({stream: true}))
 		.pipe($.size({title: 'styles:css'}));
 });
@@ -68,6 +69,7 @@ gulp.task('styles:sass', function () {
 		}))
 		.pipe($.autoprefixer('last 1 version'))
 		.pipe(gulp.dest('app/assets/styles'))
+		.pipe(reload({stream: true}))
 		.pipe($.size({title: 'styles:sass'}));
 });
 
@@ -89,23 +91,14 @@ gulp.task('styles', ['styles:sass', 'styles:scss', 'styles:css']);
 
 // Scan Your HTML For Assets & Optimize Them
 gulp.task('html', function () {
-	return gulp.src('app/**/*.html')
+	return gulp.src(['app/**/*','!app/scss','!app/scss/**'])
 		//.pipe($.useref.assets({searchPath: '{.tmp,app}'}))
 		// Concatenate And Minify JavaScript
 		.pipe($.if('*.js', $.uglify()))
 		// Concatenate And Minify Styles
 		.pipe($.if('*.css', $.csso()))
-		// Remove Any Unused CSS
-		// Note: If not using the Style Guide, you can delete it from
-		// the next line to only include styles your project uses.
-		.pipe($.if('*.css', $.uncss({ html: ['app/index.html','app/styleguide/index.html'] })))
-		.pipe($.useref.restore())
-		.pipe($.useref())
-		// Update Production Style Guide Paths
-		.pipe($.replace('app/assets/app.css', 'app/assets/app.min.css'))
-		// Minify Any HTML
-		.pipe($.minifyHtml())
-		// Output Files
+		// Minify Html
+		//.pipe($.if('*.html', $.minifyHtml()))
 		.pipe(gulp.dest('dist'));
 		//.pipe($.size({title: 'html'}));
 
