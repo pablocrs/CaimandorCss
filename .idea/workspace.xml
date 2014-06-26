@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="858734af-82da-4518-ba54-1d00c65df3f7" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\manifest.webapp" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_components\_articles-list.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_components\_breadcrumb.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_components\_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_components\_column-list.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_components\_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_components\_guides-list.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_components\_icon-circle.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_components\_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_components\_link.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_components\_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_components\_media.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_components\_subsection-title.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_components\_table.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_components\_typography.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_global.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_helper.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_article-nav.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_articles-section.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_did-you-know.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_editorial-header.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_featured-section.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_featured-spotlight.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_guides-section.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_highlight.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_in-this-guide.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_next-lessons.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_page-header.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_quote.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_related-guides.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_related-items.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_summary-header.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_modules\_toc.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_pages\_page-resources.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_pages\_styleguide.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_themed.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\_utils.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\components.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\components\components.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\h5bp.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\styles\main.css" afterPath="" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\images\hamburger.svg" afterPath="$PROJECT_DIR$/app/assets/images/hamburger.svg" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\images\icons\icons-hinted.ttf" afterPath="$PROJECT_DIR$/app/assets/images/icons/icons-hinted.ttf" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\images\icons\icons.eot" afterPath="$PROJECT_DIR$/app/assets/images/icons/icons.eot" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\images\icons\icons.svg" afterPath="$PROJECT_DIR$/app/assets/images/icons/icons.svg" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\images\icons\icons.ttf" afterPath="$PROJECT_DIR$/app/assets/images/icons/icons.ttf" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\images\icons\icons.woff" afterPath="$PROJECT_DIR$/app/assets/images/icons/icons.woff" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\images\icons\icons.woff2" afterPath="$PROJECT_DIR$/app/assets/images/icons/icons.woff2" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\images\icons\placeholder--medium.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/placeholder--medium.png" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\images\icons\placeholder--small.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/placeholder--small.png" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\images\icons\placeholder--wide.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/placeholder--wide.png" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\images\touch\chrome-touch-icon-196x196.png" afterPath="$PROJECT_DIR$/app/assets/images/touch/chrome-touch-icon-196x196.png" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\images\touch\icon-128x128.png" afterPath="$PROJECT_DIR$/app/assets/images/touch/icon-128x128.png" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\images\touch\ms-touch-icon-144x144-precomposed.png" afterPath="$PROJECT_DIR$/app/assets/images/touch/ms-touch-icon-144x144-precomposed.png" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\scripts\main.js" afterPath="$PROJECT_DIR$/app/assets/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/basic.html" afterPath="$PROJECT_DIR$/app/basic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styleguide/index.html" afterPath="$PROJECT_DIR$/app/styleguide/index.html" />
+    </list>
+    <ignored path="wsk-portfolio.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="wsk-portfolio" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="663" max-vertical-offset="1683">
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_bp5.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scss/media/_bp5.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.38405797" vertical-offset="1794" max-vertical-offset="2346">
+              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_bp0.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scss/media/_bp0.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.0833333" vertical-offset="97" max-vertical-offset="2618">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/compass/app.scss" />
+        <option value="$PROJECT_DIR$/styleguide/index.html" />
+        <option value="$PROJECT_DIR$/styles/h5bp.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.editorconfig" />
+        <option value="$PROJECT_DIR$/app/compass/components/webstarterkit/_utils.scss" />
+        <option value="$PROJECT_DIR$/app/compass/_settings.scss" />
+        <option value="$PROJECT_DIR$/app/compass/media/_bp1.scss" />
+        <option value="$PROJECT_DIR$/app/compass/media/_bp2.scss" />
+        <option value="$PROJECT_DIR$/app/compass/media/_bp3.scss" />
+        <option value="$PROJECT_DIR$/app/compass/media/_bp4.scss" />
+        <option value="$PROJECT_DIR$/app/compass/media/_bp5.scss" />
+        <option value="$PROJECT_DIR$/app/compass/media/_bp0.scss" />
+        <option value="$PROJECT_DIR$/app/compass/app.scss" />
+        <option value="$PROJECT_DIR$/app/compass/_textures.scss" />
+        <option value="$PROJECT_DIR$/app/basic.html" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/app/scss/app.scss" />
+        <option value="$PROJECT_DIR$/app/styleguide/index.html" />
+        <option value="$PROJECT_DIR$/app/scss/_settings.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/scss/pages/_styleguide.scss" />
+        <option value="$PROJECT_DIR$/app/assets/scripts/main.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scss/media/_bp0.scss" />
+        <option value="$PROJECT_DIR$/app/scss/media/_bp5.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsk-portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsk-portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsk-portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="fileColors" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/xampp/htdocs/ghost/wsk-portfolio-theme/content/themes/wsk-portfolio/app/scss/media/_bp5.scss&#10;gulp.js&#9;FILE&#9;file://C:/xampp/htdocs/ghost/wsk-portfolio-theme/content/themes/wsk-portfolio/gulpfile.js&#10;app.scss&#9;FILE&#9;file://C:/xampp/htdocs/ghost/wsk-portfolio-theme/content/themes/wsk-portfolio/app/compass/app.scss&#10;app.sc&#9;FILE&#9;file://C:/xampp/htdocs/ghost/wsk-portfolio-theme/content/themes/wsk-portfolio/app/compass/app.scss&#10;app.css&#9;FILE&#9;file://C:/xampp/htdocs/ghost/wsk-portfolio-theme/content/themes/wsk-portfolio/.tmp/styles/app.css" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app\assets" />
+      <recent name="C:\xampp\htdocs\ghost\wsk-portfolio-theme\content\themes\wsk-portfolio\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="858734af-82da-4518-ba54-1d00c65df3f7" name="Default" comment="" />
+      <created>1403699952391</created>
+      <option name="number" value="Default" />
+      <updated>1403699952391</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30366492" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="1227" y="4" width="687" height="1038" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32791877" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25290698" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14712153" sideWeight="0.5005097" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Floobits Chat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328934" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16364606" sideWeight="0.49949032" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33807108" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30456853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="1227" y="4" width="687" height="1038" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32791877" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25290698" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14712153" sideWeight="0.5005097" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Floobits Chat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328934" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33807108" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14978679" sideWeight="0.49949032" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.103658535" vertical-offset="0" max-vertical-offset="656">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.jshintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33263597" vertical-offset="2589" max-vertical-offset="37179">
+          <caret line="171" column="23" selection-start-line="171" selection-start-column="23" selection-end-line="171" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_textures.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6206349" vertical-offset="0" max-vertical-offset="630">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/media/_bp1.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2968254" vertical-offset="0" max-vertical-offset="1241">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/media/_bp2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32380953" vertical-offset="0" max-vertical-offset="1309">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/media/_bp3.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32380953" vertical-offset="0" max-vertical-offset="1309">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="204" max-vertical-offset="884">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13178295" vertical-offset="0" max-vertical-offset="14263">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.827586" vertical-offset="879" max-vertical-offset="2618">
+          <caret line="75" column="56" selection-start-line="75" selection-start-column="56" selection-end-line="75" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styleguide/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="21573">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/hamburger.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="216" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/pages/_styleguide.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7176128" vertical-offset="0" max-vertical-offset="1547">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="663">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4857143" vertical-offset="0" max-vertical-offset="918">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.790393" vertical-offset="885" max-vertical-offset="1598">
+          <caret line="84" column="20" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/media/_bp4.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5443959" vertical-offset="0" max-vertical-offset="1377">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/components/_animations.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57054263" vertical-offset="16734" max-vertical-offset="48025">
+          <caret line="1006" column="0" selection-start-line="1006" selection-start-column="0" selection-end-line="1006" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_helper.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.049490537" vertical-offset="51" max-vertical-offset="986">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="663" max-vertical-offset="1683">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/media/_bp0.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0833333" vertical-offset="97" max-vertical-offset="2618">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/media/_bp5.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38405797" vertical-offset="1794" max-vertical-offset="2346">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

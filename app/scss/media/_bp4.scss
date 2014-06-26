@@ -1,0 +1,75 @@
+$base-margin:1%;
+$base-padding:1rem;
+
+// CALCULANDO HEADER HEIGHT
+$header-height:modular-scale(1.32rem,2,$golden);
+// CALCULANDO HEADER PADDING RELATIVO
+$header-line-height:$header-height - $base-padding * 2 ;
+// CALCULANDO HEADER FONT-SIZE RELATIVO
+$header-font-size:modular-scale($header-height,-1,$golden);
+
+	/// HEADER
+
+.site-head {
+	height: $header-height;
+	line-height: $header-line-height;
+	font-size: $header-font-size;
+
+	#logo {
+
+		line-height: $header-line-height;
+
+		img {
+
+		}
+		span {
+			padding: $base-padding 0;
+			font-size: $header-font-size - $base-padding / 2;
+		}
+	}
+
+	nav {
+
+		max-width: 42%;
+
+		&.active {
+			ul > li a{
+				color:$primary-color;
+			}
+		}
+		ul {
+
+			li > a {
+				padding: $base-padding;
+				font-size: $header-font-size - $base-padding/2;
+				border:0;
+				&:hover {
+
+				}
+			}
+
+			& li:last-child > a{
+				border-bottom:0;
+			}
+			& li:first-child > a{
+				border-top:0;
+			}
+
+		}
+	}
+
+	&:hover > nav {
+		//height: auto;
+	}
+
+	#nav-btn {
+		width: $header-height;
+		right: $header-height/2;
+	}
+
+	.icon {
+		padding: $base-padding;
+		font-size: $header-font-size;
+		line-height: $header-line-height;
+	}
+}

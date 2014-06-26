@@ -1,0 +1,85 @@
+/**
+*
+* Styleguide
+*
+**/
+
+.page--styleguide {
+
+  .styleguide__module-title {
+    margin-bottom: $line-height-base;
+  }
+
+  section {
+    margin-bottom: $line-height-base*2;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: $line-height-base*3 - 1;
+
+  }
+
+  .styleguide__color-list {
+    text-align: center;
+
+    li {
+      border-bottom: $line-height-base*2 solid;
+      margin-bottom: $line-height-base;
+      position: relative;
+    }
+  }
+
+  .styleguide__breadcrumb .breadcrumbs{
+    display: block;
+  }
+
+  .styleguide__lists {
+    ul,
+    ol {
+      margin-bottom: $line-height-base;
+    }
+  }
+
+  .styleguide__inverted-block {
+    background: #e8e8e8;
+    padding: 0 13px;
+  }
+
+  .styleguide__theme-block {
+    background: $primary-color;
+    padding: 0 13px;
+  }
+
+}
+
+.demo {
+  margin-bottom: $line-height-base;
+  margin-top: $line-height-base;
+}
+
+.demo {
+  [class*="g-"] {
+    background-color: $light-grey;
+    position: relative;
+    margin-bottom: $line-height-base;
+    min-height: $line-height-base*6;
+
+    &::before,
+    &::after {
+	  font-size: 16px;
+	  line-height: 2.0000em;
+	  padding-top: 2.0000em;
+	  padding-bottom: 0;
+	  display: block;
+	  margin: 0 10px;
+    }
+
+    &::before {
+      content: "HTML classes: ";
+      font-weight: 700;
+    }
+
+    &::after {
+      content: attr(class);
+      word-spacing: 15px;
+    }
+  }
+}

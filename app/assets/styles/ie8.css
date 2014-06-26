@@ -1,0 +1,285 @@
+@charset "CP850";
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* Mixins =================================================== */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+
+.vcenter:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.xy-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.x-center {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.y-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/*------------------------------------*\
+    $MIXINS
+\*------------------------------------*/
+/**
+ * Create vendor-prefixed CSS in one go, e.g.
+ *
+   `@include vendor(border-radius, 4px);`
+ *
+ */
+/*------------------------------------*\
+    $DEFAULTS
+\*------------------------------------*/
+/**
+ * inuit.css’ default variables. Redefine these in your `_vars.scss` file (found
+ * in the inuit.css-web-template) to override them.
+ */
+/*------------------------------------*\
+    $DEBUG
+\*------------------------------------*/
+/**
+ * Debug mode will visually highlight any potential markup/accessibility quirks
+ * in the browser. Set to `true` or `false`.
+ */
+/*------------------------------------*\
+    $BORDER-BOX
+\*------------------------------------*/
+/**
+ * Do you want all elements to adopt `box-sizing:border-box;` as per
+ * paulirish.com/2012/box-sizing-border-box-ftw ?
+ */
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+/**
+ * Base stuff
+ */
+/**
+ * Base font-family.
+ */
+/**
+ * Default colour for objects’ borders etc.
+ */
+/*------------------------------------*\
+    $RESPONSIVE
+\*------------------------------------*/
+/**
+ * Responsiveness?
+ */
+/**
+ * Responsiveness for widescreen/high resolution desktop monitors and beyond?
+ * Note: `$responsive` variable above must be set to true before enabling this.
+ */
+/**
+ * Responsive push and pull produce a LOT of code, only turn them on if you
+ * definitely need them.
+ */
+/**
+ * Note: `$push` variable above must be set to true before enabling these.
+ */
+/**
+ * Note: `$pull` variable above must be set to true before enabling these.
+ */
+/**
+ * Tell inuit.css when breakpoints start.
+ */
+/*------------------------------------*\
+    $FONT-SIZES
+\*------------------------------------*/
+/**
+ * Font-sizes (in pixels). Refer to relevant sections for their implementations.
+ */
+/*------------------------------------*\
+    $QUOTES
+\*------------------------------------*/
+/**
+ * English quote marks?
+ */
+/**
+ * If you want English quotes then please do not edit these; they’re only here
+ * because Sass needs them.
+ */
+/**
+ * If you need non-English quotes, please alter the following values accordingly:
+ */
+/*------------------------------------*\
+    $BRAND
+\*------------------------------------*/
+/**
+ * Brand stuff
+ */
+/**
+ * How big would you like round corners to be by default?
+ */
+/*------------------------------------*\
+    $OBJECTS AND ABSTRACTIONS
+\*------------------------------------*/
+/**
+ * Which objects and abstractions would you like to use?
+ */
+/*------------------------------------*\
+    $FRAMEWORK
+\*------------------------------------*/
+/**
+ * inuit.css will work these next ones out for use within the framework.
+ *
+ * Assign our `$base-line-height` to a new spacing var for more transparency.
+ */
+header.site-head {
+  height: 50px;
+  line-height: 20px;
+  font-size: 20px;
+  position: relative;
+}
+header.site-head #logo {
+  line-height: 20px;
+}
+header.site-head #logo span {
+  padding: 15px 0;
+  font-size: 20px;
+}
+header.site-head nav ul li > a {
+  padding: 15px;
+  font-size: 20px;
+}
+header.site-head #nav-btn {
+  width: 50px;
+  right: 25px;
+}
+header.site-head .icon {
+  padding: 15px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+header.head_transparent {
+  background: white;
+  color: black;
+  border: none;
+}
+
+.intro-text {
+  padding: 50px 0;
+}
+.intro-text .container {
+  height: inherit;
+  padding: 50px 15px 50px;
+}
+.intro-text .intro-text__background {
+  background-image: url("../img/main_bg/bg_1080p.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.intro-text h1 {
+  margin-bottom: 15px;
+}
+.intro-text h1 span {
+  display: inline;
+}
+.intro-text h2 {
+  margin-bottom: 30px;
+}
+.intro-text .button {
+  width: auto;
+  padding: 10px;
+}
+
+.container.container-main {
+  text-align: center;
+}
+
+article.main {
+  max-width: 425px;
+  width: 23%;
+  display: inline-block;
+  margin: 15px auto 0 auto;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+article.main header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 7.5px;
+  background: rgba(255, 255, 255, 0.9);
+}
+article.main header .title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  margin-top: -15px;
+  line-height: 30px;
+  font-size: 1rem;
+  color: blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+@media only screen and (min-width: 320px) {
+  article.main header .title {
+    font-size: 1.5rem;
+  }
+}
+article.main header .link {
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  font-size: 2em;
+}
+article.main header.active {
+  visibility: visible;
+}
+article.main img {
+  display: block;
+  -o-border-radius: 0.15rem;
+  border-radius: 0.15rem;
+}
+article.main img[src$="#main"] {
+  display: block;
+}
+article.main .text {
+  display: none;
+}
+
+.pagination {
+  text-align: center;
+  margin: 15px 0;
+}
+
+footer {
+  text-align: center;
+}

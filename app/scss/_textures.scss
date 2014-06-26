@@ -1,0 +1,23 @@
+%header-style{
+	background: white;
+	color: $header-font-color;
+	border-bottom: 1px solid $border-color;
+}
+
+%main-style{
+	color: $header-font-color;
+	border-bottom: 1px solid $border-color;
+	border-top: 1px solid $border-color;
+}
+
+%secondary-style{
+	background: #f3f2f0;
+	border-top: 1px solid $border-color;
+	border-bottom: 1px solid $border-color;
+}
+
+.button-main{
+	@extend .button;
+	@extend .tiny;
+	@extend .radius;
+}

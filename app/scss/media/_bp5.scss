@@ -1,0 +1,132 @@
+$base-margin:1%;
+$base-padding:1rem;
+
+// CALCULANDO HEADER HEIGHT
+$header-height:modular-scale(1.26rem,2,$golden);
+// CALCULANDO HEADER PADDING RELATIVO
+$header-line-height:$header-height - $base-padding * 2 ;
+// CALCULANDO HEADER FONT-SIZE RELATIVO
+$header-font-size:modular-scale($header-height,-1,$golden);
+
+	/// HEADER
+
+.site-head {
+	height: $header-height;
+	line-height: $header-line-height;
+	font-size: $header-font-size;
+	z-index: 100;
+
+	#logo {
+		height: 100%;
+		width: 20%;
+		margin: 0 $base-margin;
+		margin-left: 0;
+		padding: 0;
+		line-height: $header-line-height;
+		display: block;
+		float: left;
+		text-align: left;
+		img {
+			width: auto;
+			height: 100%;
+			margin: 0 auto;
+		}
+		span {
+			padding: $base-padding;
+			font-size: $header-font-size - $base-padding / 2;
+			display: block;
+		}
+	}
+
+	nav {
+		position: relative;
+		top: 0;
+		left: auto;
+		right: 0;
+		margin-top: 0;
+		height: 100%;
+		overflow:hidden;
+		width: 78%;
+		max-width: 100%;
+		opacity: 1;
+
+		&.active {
+			height: 100%;
+		}
+		ul {
+			float:right;
+			text-align: center;
+			margin:0;
+			background: none;
+			border-bottom: 0;
+			li{
+				list-style: none;
+				float:left;
+				line-height: $header-line-height;
+				background: none;
+			}
+
+			li > a {
+				padding: $base-padding;
+				margin-right: $base-padding;
+				font-size: 1.2rem;
+				border:0;
+				display: block;
+				background: none;
+				color:$body-dark-font-color;
+				@include box-sizing(border-box);
+				max-height: $header-height - 0.0625;
+
+				transition:
+					border-bottom .15s ease
+				 	,color 0.15s ease;
+
+			}
+			/// HOVER EFFECT
+			li > a.active, li > a:hover{
+				background: none;
+				color: $primary-color;
+				border-bottom: 3px solid $primary-color;
+			}
+			&:hover li > a{
+				border-bottom-width:0px;
+				color:$body-dark-font-color;
+				@include border-radius(0,0px,0px,0px);
+			}
+			li > a:hover{
+				border-bottom: 3px solid $primary-color;
+				color: $primary-color ;
+			}
+
+			& li:last-child > a{
+			}
+
+		}
+	}
+
+	&.head_transparent{
+		nav a{
+			color:white;
+			&.active{
+				border-color:white;
+			}
+		}
+	}
+
+	&:hover > nav {
+		//height: auto;
+	}
+
+	#nav-btn {
+		display:none !important;
+		&.active{
+			color:$primary-color;
+		}
+	}
+
+	.icon {
+		padding: $base-padding;
+		font-size: $header-font-size;
+		line-height: $header-line-height / 2;
+	}
+}

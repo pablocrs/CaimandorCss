@@ -1,0 +1,26 @@
+
+// Break point 1
+
+
+.grid-sizer { width: 50%; display: block; }
+
+// Break point 1
+@media only screen and (min-width: $bp1) {
+	.grid-sizer { width: 10%; }
+}
+// Break point 2
+@media only screen and (min-width: $bp2) {
+
+}
+// Break point 3
+@media only screen and (min-width: $bp3) {
+
+}
+// Break point 4
+@media only screen and (min-width: $bp4) {
+	.grid-sizer { width: 25%; }
+}
+// Break point 5
+@media only screen and (min-width: $bp5) {
+
+}

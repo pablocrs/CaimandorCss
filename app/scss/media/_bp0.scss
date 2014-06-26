@@ -1,0 +1,148 @@
+$base-margin:1%;
+$base-padding:1rem;
+
+$header-height:modular-scale(1.36rem,2,$golden);
+$header-line-height:$header-height - $base-padding * 2 ;
+$header-font-size:modular-scale($header-height,-1,$golden);
+
+	/// HEADER
+
+.site-head {
+	height: $header-height;
+	line-height: $header-line-height;
+	font-size: $header-font-size;
+	z-index: 100;
+	width: 100%;
+	position: relative;
+	@extend %header-style;
+
+	transition:background-color 0.3s ease,border-color 0.3s ease;
+
+	#logo {
+		height: 100%;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		float: left;
+		padding: 0;
+		line-height: $header-line-height;
+
+		img {
+			width: auto;
+			height: 100%;
+			margin: 0 auto;
+		}
+		span {
+			padding: $base-padding 0;
+			font-size: $header-font-size - $base-padding / 2;
+			display: block;
+			a{
+				color:$body-font-color;
+				&:hover{color:$body-font-color;}
+			}
+		}
+	}
+
+	nav {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		margin-top: 0;
+		height: auto;
+		overflow:hidden;
+
+		@include animated(0.3s);
+		opacity: 0;
+
+		&.active {
+			@extend .fadeIn;
+			opacity: 1;
+		}
+		ul {
+			text-align: center;
+			margin-left: 0;
+			@extend %header-style;
+
+			li > a {
+				padding: $base-padding;
+				font-size: $header-font-size - $base-padding/2;
+				border-bottom: 1px solid $secondary-border-color;
+				display: block;
+				color:black;
+				&:hover {
+					background: darken(white,5%);
+				}
+			}
+			& li:first-child > a{
+				border-top: 1px solid $secondary-border-color;
+			}
+			& li:last-child > a{
+				border-bottom: 0;
+			}
+
+		}
+	}
+
+	&:hover > nav {
+		//height: auto;
+	}
+
+	#nav-btn {
+		height: 100%;
+		padding: $base-padding;
+		min-width: $header-height;
+		position: absolute;
+
+		right: 0;
+		text-align: right;
+		cursor: pointer;
+		&.active{
+			color:$primary-color;
+		}
+	}
+
+	.icon {
+		height: $header-line-height;
+		display: block;
+		float: right;
+	}
+
+}
+.site-head.site-head--fixed{
+	position: fixed;
+}
+.site-head.head_transparent{
+	background: rgba(255, 255, 255, 0.0);
+	border-color:transparent;
+	color:white;
+	#logo{
+		span a {color:white;}
+	}
+	nav a{
+		color:white;
+	}
+}
+
+/// CONTAINER
+
+.container {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+
+	&.container__large,&.container__main {
+		max-width: convert-to-rem(1180px);
+	}
+	&.container__small {
+		width: 90%;
+		max-width: convert-to-rem(1110);
+	}
+	&.container__xsmall {
+		max-width: convert-to-rem(900px);
+	}
+}
+
+main{
+	padding: $base-padding $base-margin;
+}
