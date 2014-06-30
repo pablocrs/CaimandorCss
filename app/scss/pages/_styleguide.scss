@@ -4,6 +4,9 @@
 *
 **/
 
+
+//@import "../components/vendor/web-starter-kit/components";
+
 .page--styleguide {
 
   .styleguide__module-title {
@@ -82,4 +85,12 @@
       word-spacing: 15px;
     }
   }
+}
+
+.container.container-animated{
+	transition: max-height 1s ease;
+	max-height: 700px;
+}
+.container.container-closed{
+	max-height: 40px;
 }

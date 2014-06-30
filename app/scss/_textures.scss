@@ -1,23 +1,30 @@
 %header-style{
-	background: white;
-	color: $header-font-color;
-	border-bottom: 1px solid $border-color;
+	background: $navbar-color;
+	color: $navbar-font-color;
+	border-bottom: 1px solid darken($border-color,5%);
 }
 
 %main-style{
-	color: $header-font-color;
+	color: $navbar-font-color;
 	border-bottom: 1px solid $border-color;
 	border-top: 1px solid $border-color;
-}
-
-%secondary-style{
-	background: #f3f2f0;
-	border-top: 1px solid $border-color;
-	border-bottom: 1px solid $border-color;
 }
 
 .button-main{
 	@extend .button;
 	@extend .tiny;
 	@extend .radius;
+}
+
+.texture{
+	&-primary{
+		background: $primary-color;
+		color:white;
+		a{
+			color:white;
+			&:hover{
+				color:$secondary-color;
+			}
+		}
+	}
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/wsk-portfolio.iml" filepath="$PROJECT_DIR$/.idea/wsk-portfolio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/caimanidorcss.iml" filepath="$PROJECT_DIR$/.idea/caimanidorcss.iml" />
     </modules>
   </component>
 </project>

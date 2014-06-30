@@ -3,13 +3,13 @@
 /**
  * Add/remove margins
  */
-.push           { margin:       $base-spacing!important; }
-.push--top      { margin-top:   $base-spacing!important; }
-.push--right    { margin-right: $base-spacing!important; }
-.push--bottom   { margin-bottom:$base-spacing!important; }
-.push--left     { margin-left:  $base-spacing!important; }
-.push--ends     { margin-top:   $base-spacing!important; margin-bottom:$base-spacing!important; }
-.push--sides    { margin-right: $base-spacing!important; margin-left:  $base-spacing!important; }
+.push           { margin:       $base-margin!important; }
+.push--top      { margin-top:   $base-margin!important; }
+.push--right    { margin-right: $base-margin!important; }
+.push--bottom   { margin-bottom:$base-margin!important; }
+.push--left     { margin-left:  $base-margin!important; }
+.push--ends     { margin-top:   $base-margin!important; margin-bottom:$base-margin!important; }
+.push--sides    { margin-right: $base-margin!important; margin-left:  $base-margin!important; }
 
 .push-half          { margin:       $base-spacing-half!important; }
 .push-half--top     { margin-top:   $base-spacing-half!important; }

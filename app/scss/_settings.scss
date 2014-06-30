@@ -35,10 +35,14 @@
 //
 //  We use these as default website colors
 
-	$header-color:whitesmoke !default; 
+	$navbar-color:#4285F4 !default;
+	$navbar-border-color: darken($navbar-color,10%);
+	$navbar-font-color: white;
+	$navbar-comp-color: white;
+
 	$side-nav-color: #e7e7e7;
 
-	$primary-color: blue;
+	$primary-color: #4285f4;
 	$secondary-color: #e7e7e7;
     $comp-color: #f02154;
 

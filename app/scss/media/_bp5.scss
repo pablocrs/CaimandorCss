@@ -2,7 +2,7 @@ $base-margin:1%;
 $base-padding:1rem;
 
 // CALCULANDO HEADER HEIGHT
-$header-height:modular-scale(1.26rem,2,$golden);
+$header-height:modular-scale(1.16rem,2,$golden);
 // CALCULANDO HEADER PADDING RELATIVO
 $header-line-height:$header-height - $base-padding * 2 ;
 // CALCULANDO HEADER FONT-SIZE RELATIVO
@@ -73,7 +73,7 @@ $header-font-size:modular-scale($header-height,-1,$golden);
 				border:0;
 				display: block;
 				background: none;
-				color:$body-dark-font-color;
+				color:$navbar-font-color;
 				@include box-sizing(border-box);
 				max-height: $header-height - 0.0625;
 
@@ -85,17 +85,17 @@ $header-font-size:modular-scale($header-height,-1,$golden);
 			/// HOVER EFFECT
 			li > a.active, li > a:hover{
 				background: none;
-				color: $primary-color;
-				border-bottom: 3px solid $primary-color;
+				color: $navbar-comp-color;
+				border-bottom: 3px solid $navbar-comp-color;
 			}
 			&:hover li > a{
 				border-bottom-width:0px;
-				color:$body-dark-font-color;
+				color:$navbar-font-color;
 				@include border-radius(0,0px,0px,0px);
 			}
 			li > a:hover{
-				border-bottom: 3px solid $primary-color;
-				color: $primary-color ;
+				border-bottom: 3px solid $navbar-comp-color;
+				color: $navbar-comp-color ;
 			}
 
 			& li:last-child > a{
@@ -123,10 +123,8 @@ $header-font-size:modular-scale($header-height,-1,$golden);
 			color:$primary-color;
 		}
 	}
-
 	.icon {
-		padding: $base-padding;
-		font-size: $header-font-size;
-		line-height: $header-line-height / 2;
+		height: $header-line-height;
+		font-size: $header-font-size - $base-padding/2;;
 	}
 }

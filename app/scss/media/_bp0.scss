@@ -1,7 +1,7 @@
 $base-margin:1%;
 $base-padding:1rem;
 
-$header-height:modular-scale(1.36rem,2,$golden);
+$header-height:modular-scale(1.26rem,2,$golden);
 $header-line-height:$header-height - $base-padding * 2 ;
 $header-font-size:modular-scale($header-height,-1,$golden);
 
@@ -11,13 +11,15 @@ $header-font-size:modular-scale($header-height,-1,$golden);
 	height: $header-height;
 	line-height: $header-line-height;
 	font-size: $header-font-size;
-	z-index: 100;
+	z-index: $zindex-navbar;
 	width: 100%;
 	position: relative;
 	@extend %header-style;
 
-	transition:background-color 0.3s ease,border-color 0.3s ease;
-
+	transition:background-color 0.2s ease,border-color 0.2s ease;
+	.container{
+		@extend .clearfix;
+	}
 	#logo {
 		height: 100%;
 		width: 100%;
@@ -37,8 +39,8 @@ $header-font-size:modular-scale($header-height,-1,$golden);
 			font-size: $header-font-size - $base-padding / 2;
 			display: block;
 			a{
-				color:$body-font-color;
-				&:hover{color:$body-font-color;}
+				color:$navbar-font-color;
+				&:hover{color:$navbar-font-color;}
 			}
 		}
 	}
@@ -51,12 +53,12 @@ $header-font-size:modular-scale($header-height,-1,$golden);
 		margin-top: 0;
 		height: auto;
 		overflow:hidden;
-
+		z-index: $zindex-dropdown;
 		@include animated(0.3s);
 		opacity: 0;
 
 		&.active {
-			@extend .fadeIn;
+			@extend .fadeInDown;
 			opacity: 1;
 		}
 		ul {
@@ -67,15 +69,15 @@ $header-font-size:modular-scale($header-height,-1,$golden);
 			li > a {
 				padding: $base-padding;
 				font-size: $header-font-size - $base-padding/2;
-				border-bottom: 1px solid $secondary-border-color;
+				border-bottom: 1px solid $navbar-border-color;
 				display: block;
-				color:black;
+				color:$navbar-font-color;
 				&:hover {
-					background: darken(white,5%);
+					background: darken($navbar-color,5%);
 				}
 			}
 			& li:first-child > a{
-				border-top: 1px solid $secondary-border-color;
+				border-top: 1px solid $navbar-border-color;
 			}
 			& li:last-child > a{
 				border-bottom: 0;
@@ -93,10 +95,10 @@ $header-font-size:modular-scale($header-height,-1,$golden);
 		padding: $base-padding;
 		min-width: $header-height;
 		position: absolute;
-
 		right: 0;
 		text-align: right;
 		cursor: pointer;
+		display: table;
 		&.active{
 			color:$primary-color;
 		}
@@ -104,8 +106,10 @@ $header-font-size:modular-scale($header-height,-1,$golden);
 
 	.icon {
 		height: $header-line-height;
-		display: block;
+		font-size: $header-font-size - $base-padding/2;;
 		float: right;
+		vertical-align: bottom;
+		margin-top: 1px;
 	}
 
 }
@@ -130,6 +134,7 @@ $header-font-size:modular-scale($header-height,-1,$golden);
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
+	position: relative;
 
 	&.container__large,&.container__main {
 		max-width: convert-to-rem(1180px);

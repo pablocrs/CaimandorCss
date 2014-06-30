@@ -64,8 +64,7 @@ $header-font-size:modular-scale($header-height,-1,$golden);
 	}
 
 	.icon {
-		padding: $base-padding;
-		font-size: $header-font-size;
-		line-height: $header-line-height;
+		height: $header-line-height;
+		font-size: $header-font-size - $base-padding/2;;
 	}
 }

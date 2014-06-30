@@ -11,16 +11,17 @@
 @import "components/normalize"; 
 
 //  Fonts + Icons
-//@import "components/font-awesome-4.0.3/font-awesome";
+//@import "components/vendor/font-awesome-4.0.3/font-awesome";
+@import "components/icons";
 
 //  Foundation
 @import
 "components/vendor/foundation/type",
 //"components/vendor/foundation/alert-boxes",
-"components/vendor/foundation/buttons";
+"components/vendor/foundation/buttons",
 //"components/vendor/foundation/button-groups",
 //"components/vendor/foundation/side-nav",
-//"components/vendor/foundation/forms",
+"components/vendor/foundation/forms";
 //"components/vendor/foundation/pagination";
 //"components/vendor/foundation/label",
 //"components/vendor/foundation/switch",
@@ -34,8 +35,8 @@
 //"components/vendor/foundation/progress-bars";
 
 //  Bootstrap
-//@import
-//"components/vendor/bootstrap/mixins",
+@import
+"components/vendor/bootstrap/mixins";
 //"components/vendor/bootstrap/modals",
 //"components/vendor/bootstrap/pagination",
 //"components/vendor/bootstrap/variables",
@@ -63,6 +64,11 @@
 //"components/vendor/webstarterkit/_components/icon-circle",
 //"components/vendor/webstarterkit/_components/icons",
 //"components/vendor/webstarterkit/_components/media";
+
+//	Personal
+@import "modules/animated_buttons";
+//@import "module/topbar";
+@import "modules/section_button";
 
 //  Animations
 @import "components/animations";

@@ -1,0 +1,99 @@
+
+
+@keyframes pulse {
+	0% {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+
+	50% {
+		-webkit-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+}
+.pulse {
+	-webkit-animation-name: pulse;
+	animation-name: pulse;
+}
+@keyframes pulse-opacity {
+	0% {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+		opacity:0.5;
+	}
+
+	50% {
+		-webkit-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+		opacity:0;
+	}
+}
+.pulse-opacity {
+	-webkit-animation-name: pulse-opacity;
+	animation-name: pulse-opacity;
+}
+
+@mixin pulse-circle($color){
+	content: "";
+	display:block;
+	height:150%;
+	width: 70%;
+	position: absolute;
+	top:-25%;
+	left:14%;
+	bottom:0;
+	righ:0;
+	background: darken($color,40%);
+	border-radius: 100%;
+	opacity: 0.2;
+}
+
+.button{
+	position:relative;
+	overflow: hidden;
+	>span{
+		z-index: 2;
+		position: relative;
+	}
+	&:focus{
+
+	}
+	&:hover{
+		background: darken($primary-color,10%);
+	}
+
+	&.button--pulse{
+
+		&:hover:after{
+			@include pulse-circle($primary-color);
+			@extend .animated;
+			@extend .pulse;
+		}
+
+		&.pulse__repeat:hover:after	{ @extend .an-repeat;}
+		&.pulse__opacity:hover:after	{ @extend .pulse-opacity;}
+
+		&.secondary:hover:after { @include pulse-circle($secondary-color); }
+		&.success:hover:after   { @include pulse-circle($success-color); }
+		&.alert:hover:after     { @include pulse-circle($alert-color); }
+		&.warning:hover:after     { @include pulse-circle($warning-color); }
+		&.info:hover:after     { @include pulse-circle($info-color); }
+	}
+
+}
