@@ -1,0 +1,30 @@
+.button-container{
+	position: absolute;
+	display: block;
+	bottom: -25px;
+	right: 30%;
+
+	height: 50px;
+	width: 50px;
+
+
+	border: 1px solid black;
+	background: $warning-color;
+	display: table;
+
+	&.secondary { @include button-style($bg:$secondary-color); }
+	&.success   { @include button-style($bg:$success-color); }
+	&.alert     { @include button-style($bg:$alert-color); }
+	&.warning     { @include button-style($bg:$warning-color); }
+	&.info     { @include button-style($bg:$info-color); }
+
+	&.round     { border-radius: 100% !important; }
+
+	border-radius: 100%;
+
+	i{
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+}
